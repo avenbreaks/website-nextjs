@@ -5,50 +5,88 @@ import Container from "./container";
 import userOneImg from "../public/img/user1.jpg";
 import userTwoImg from "../public/img/user2.jpg";
 import userThreeImg from "../public/img/user3.jpg";
+import userFourImg from "../public/img/user4.jpg";
+import userFiveImg from "../public/img/user5.jpg";
+import userSixImg from "../public/img/user6.jpg";
+import userSevenImg from "../public/img/user7.jpg";
+
 
 export default function Testimonials() {
   return (
     <Container>
       <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
         <div className="lg:col-span-2 xl:col-auto">
-          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
+          <div className="bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              Share a real <Mark>testimonial</Mark>
-              that hits some of your benefits from one of your popular customer.
             </p>
 
             <Avatar
               image={userOneImg}
-              name="Sarah Steiner"
-              title="VP Sales at Google"
+              name="Michele Evaa Chan"
+              title="Smart Contract Engineering"
             />
           </div>
         </div>
         <div className="">
-          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
+          <div className="bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              Make sure you only pick the <Mark>right sentence</Mark>
-              to keep it short and simple.
             </p>
 
             <Avatar
               image={userTwoImg}
-              name="Dylan Ambrose"
-              title="Lead marketer at Netflix"
+              name="Jerry Madez"
+              title="Social Media Manager"
             />
           </div>
         </div>
         <div className="">
-          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
+          <div className="bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              This is an <Mark>awesome</Mark> landing page template I've seen. I
-              would use this for anything.
             </p>
 
             <Avatar
               image={userThreeImg}
-              name="Gabrielle Winn"
-              title="Co-founder of Acme Inc"
+              name="Joey Avenbreaks"
+              title="Co-Founder Gitshock Finance"
+            />
+          </div>
+        </div>
+
+                <div className="">
+          <div className="bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
+            <p className="text-2xl leading-normal ">
+            </p>
+
+            <Avatar
+              image={userFourImg}
+              name="M Fathur"
+              title="Community Manager"
+            />
+          </div>
+        </div>
+
+                <div className="">
+          <div className="bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
+            <p className="text-2xl leading-normal ">
+            </p>
+
+            <Avatar
+              image={userFiveImg}
+              name="川田湯田"
+              title="Content Writer"
+            />
+          </div>
+        </div>
+
+                <div className="">
+          <div className="bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
+            <p className="text-2xl leading-normal ">
+            </p>
+
+            <Avatar
+              image={userSixImg}
+              name="J.M Tiyo"
+              title="Crypto Community Specialist"
             />
           </div>
         </div>

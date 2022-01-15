@@ -4,10 +4,10 @@ import { Disclosure } from "@headlessui/react";
 
 export default function Navbar() {
   const navigation = [
-    "Product",
-    "Features",
-    "Pricing",
-    "Company",
+    "Home",
+    "Services",
+    "Community",
+    "Roadmap",
     "Blog",
   ];
 
@@ -30,7 +30,7 @@ export default function Navbar() {
                         className="w-8"
                       />
                     </span>
-                    <span>Nextly</span>
+                    <span>Gitshock Finance</span>
                   </a>
                 </Link>
 
